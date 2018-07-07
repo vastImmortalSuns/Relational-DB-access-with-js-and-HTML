@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="description" content="The final homework assignment for Netcentric Computing"> 
+        <meta name="author" content="Ben Jenkins"> 
+        <script type="text/javascript" src="mySQLInfo.js"></script> 
+        <title>Friends App</title> 
+        <link href="http://leia.cs.spu.edu/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+		<link href="styles/benstyles.css" rel = "stylesheet">
+	</head>
+	<body>
+			<div class="btn-group">
+                <a class="btn btn-primary" href="index_1_viewFriends.html" role="button">View All Friends</a>
+                <a class="btn btn-primary" href="index_2_addFriends.html" role="button">Add a Friend</a>
+                <a class="btn btn-primary" href="index_3_findFriendByID.html" role="button">Find a Friend by Name</a>
+                <a class="btn btn-primary" href="index_4_findFriendByName.html" role="button">Find a Friend by ID</a>
+                <a class="btn btn-primary" href="index_5_updateFriendID.html" role="button">Update a Friend by ID</a>
+                <a class="btn btn-primary" href="index_6_deleteFriendID.html" role="button">Delete a Friend by ID</a>
+            </div>
+        <div class="container" style="text-align: center"> 
+			<h1>MySQL Friends Application: Find Friend by Name</h1><br> 
+			<br>
+			<div class="form-group">
+				<label for="index4_ID">Case 4: Find a Friend by Name</label> <br> <br>
+				<input class="form-control form-control-lg" id="index4" type="text" placeholder="Friend's Name">
+				<br>
+				<button type="button" class="btn btn-primary form-control" onclick="findFriendsName()">Find</button> 
+				<br>
+			</div>
+				<div class="form-group"> 
+					<div class="jumbotron" id="output"> </div>
+				</div> <hr>
+			<label for="stopId">Return to Directory</label> <br> <br>
+			<a class="btn btn-primary" href="index.html" role="button">Return</a>
+		</div> <br>
+		
+	</body>
+</html>
