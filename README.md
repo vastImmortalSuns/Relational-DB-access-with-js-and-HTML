@@ -7,7 +7,7 @@ Several things must be noted here:
 
   2. I only slightly edited the "friends-router" and "server" files for them to opperate on my computer. I do not wish to take credit for work I did not do. The only code I wrote from scratch can be found in the HTML pages and the mySQLInfo.js file.
   
-  3. For this project, we had to use bootstrap. Don't judge me. If you are curious whether or not I am competant in CSS, my current CSS stylehseet has been posted.
+  3. For this project, we had to use bootstrap. Don't judge me. If you are curious whether or not I am competant in CSS, you can view how my CSS looks in each of the seven webpage's source code.
 
   4. Do not be perplexed by the amount of files in this repo. Below is an explanation of what is both necessary and unnecessary for you to understand. 
 
