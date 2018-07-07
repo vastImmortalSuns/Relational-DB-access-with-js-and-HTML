@@ -15,13 +15,15 @@ Several things must be noted here:
 
    First, in order to start the program, type the command 'node.js server-04'. This will launch evrything on the link http://leia.cs.spu.edu:3027. 
    
-This project is structured in a way where, when a server file is ran via node, a friends-router file is accessed via the server file, and the db.js file is accessed via the friends-router file. Also, the seven HTML pages and their accompanying js file, MySQLInfo.js, is created. 
+This project is structured in a way where, when a server file is ran via node, a friends-router file is accessed via the server file, and the db.js file is accessed via the friends-router file. Also, the seven HTML pages and their accompanying js file, MySQLInfo.js (found in the PUBLIC folder), is created. 
 
 Why all the server and friend-router files? These were early tests I have included so you, dear reader, can explore the intricacies of the code further, if you wish. Don't be alarmed by the number of them, the only ones of these you need to be concious of are server-04 and friends-router-03. 
   
   Second, within the server and friends-router files are sensitive information that I hardcoded in to make them run on my school's network. You will likely need to edit these pieces of information which can be found at the beginning (and sometimes bottom) of every server and friends-router file, as well as the db.js file. 
 
   Third, the database, from which the data is being accessed, houses many people's names and information in JSON format. The JSON files I have attached exist because of this reason. 
+  
+  Fourth, the MODELS folder houses several files that are each connected to a friends-router file (similar how a friends-router file is connected toa  specific server file).  
   
                                                             ------------------
                                                             
